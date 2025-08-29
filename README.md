@@ -2,6 +2,8 @@
 
 Lazerbeam is a modular C program that dynamically loads and executes shared object (`.so`) files from an `ammo/` directory to perform actions on a specified target file. It features animated console output for visual feedback and is intended for controlled, experimental use.
 
+![Alt text](https://i.pinimg.com/736x/7a/ac/16/7aac16f65b88573b63a5f1e2cf0e0043.jpg)
+
 ## Features
 - Loads and executes missile plugins (`.so` files) from the `ammo/` directory.
 - Displays animated ASCII art and text effects during execution.
@@ -29,8 +31,9 @@ Lazerbeam is a modular C program that dynamically loads and executes shared obje
 - `art/art.art` file for ASCII art (optional)
 
 ## Compilation
-```bash
-gcc -o lazerbeam lazerbeam.c -ldl
+```
+make
+make clean
 ```
 
 ## Notes
